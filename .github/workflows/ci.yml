@@ -61,3 +61,7 @@ jobs:
           cmake .
           msbuild FlatCC.sln /m /property:Configuration=Release
           ctest -VV
+      - name: Upload artifacts
+        with:
+          path: |
+            build
