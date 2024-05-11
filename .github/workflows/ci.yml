@@ -60,10 +60,9 @@ jobs:
         run: |
           cmake .
           msbuild FlatCC.sln /m /property:Configuration=Release
-          ls
           ctest -VV
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
           path: |
-            flatcc/bin/Release/flatcc.exe
+            D:\a\flatcc\flatcc\bin\Release\flatcc.exe
