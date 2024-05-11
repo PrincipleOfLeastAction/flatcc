@@ -17,7 +17,6 @@ read small buffers in 30ns, build FlatBuffers in about 600ns, and with a larger
 executable also handle optional json parsing or printing in less than 2 us for a
 10 field mixed type message.
 
-
 <!-- vim-markdown-toc GFM -->
 
 * [Online Forums](#online-forums)
